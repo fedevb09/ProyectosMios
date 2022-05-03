@@ -1,0 +1,531 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+header .form .input{
+    background-color: white;
+    width: 90%;
+    padding: 7.5px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+header .form .submit{
+    background-color: white;
+    padding: 7px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+header .como-comprar{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-article{
+    position: relative;
+}
+
+div.menu-hamburguesa{
+    text-align: center;
+}
+
+div.menu-hamburguesa i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+.precio{
+    font-size: 18px;
+    display: inline;
+    margin-left: 20px;
+    width: 30%;
+}
+
+.descuento{
+    display: inline;
+    width: 70%;
+    align-items: center;
+}
+
+.descuento,
+.descripcion{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.descripcion{
+    color: #666;
+}
+
+.descripcion{
+    display: none;
+    margin-top: 20px;
+}
+
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.descuento{
+    color: #39b54a;
+}
+
+main section article i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+nav{
+    display: none;
+}
+
+footer{
+    background-color: white;
+}
+
+footer h2{
+    color: #666;
+}    
+
+footer .metodos-pago{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 500px;  
+}
+
+footer .descripciones i{
+    font-size: 2em;
+    color: #0044AA;
+    margin-bottom: 10px;
+}
+
+footer .descripciones{
+    margin-top: 50px;
+}
+
+.copyright{
+    padding-bottom: 20px;
+}
+
+form.registro .form-group{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.form-group-login input{
+    width: 90%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.user-profile{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-profile label{
+    margin: 0 9px 0 9px;
+}
+
+.options{
+    margin: 15px;
+}
+
+.options label{
+    margin: 0 9px 0 9px;
+}
+
+form.registro h2{
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.form-group-pic{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.primary {
+    color: #090909;
+    width: 80%;
+    margin-top: 15%;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+
+.primary:hover {
+    background-color: #0044AA;
+    color: white;
+}
+
+.secundary{
+    color: #090909;
+    width: 80%;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    margin-top: 15%;
+    margin-bottom: 1%;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+
+.secundary:hover {
+    background-color: red;
+    color: white;
+}
+
+form.registro  input:focus{
+    outline: none;
+    border: 1px solid green;
+}
+
+form.logueo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    align-items: center;
+    margin: 24px auto;
+}
+
+form.logueo .form-group {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+form.logueo .form-group input{
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 100%; 
+    border-radius: 10px 10px 10px 10px 
+}
+
+
+
+form.logueo .primary {
+    color: #090909;
+    width: 50%;
+    margin-top: 2%;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+
+form.logueo .primary:hover {
+    background-color: #0044AA;
+    color: white;
+}
+
+@media (min-width: 500px){
+    main section article .descripcion{
+        display: block;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .productos article{
+        width: 40%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    nav ul{
+        display: flex;
+        width: 33%;
+        justify-content: space-between;
+    }
+
+    .menu-hamburguesa{
+        display: none;
+    }
+
+    .top-header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 200px;
+    }
+    
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    header .form .input{
+        width: 60%;
+    }
+
+    header .como-comprar{
+        width: 20%;
+        justify-content: center;
+        text-align: center; 
+        align-items: center;   
+    }
+
+    form.registro .form-group{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .form-group-login input{
+        width: 50%;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    
+    .user-profile{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .user-profile label{
+        margin: 0 9px 0 9px;
+    }
+    
+    .options{
+        margin: 15px;
+    }
+    
+    .options label{
+        margin: 0 9px 0 9px;
+    }
+    
+    form.registro h2{
+        font-size: 1rem;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    .form-group-pic{
+        margin-bottom: 5%;
+    }
+    .secundary:hover {
+        background-color: red;
+        color: white;
+    }
+    
+    form.registro  input:focus{
+        outline: none;
+        border: 1px solid green;
+    }
+    
+    form.logueo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        align-items: center;
+        margin: 24px auto;
+    }
+    
+    form.logueo .form-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 100%;
+        width: 70%;
+    }
+    
+    form.logueo .form-group input{
+        border: none;
+        outline: none;
+        margin-top: 2%;
+        height: 50px;
+        width: 72%; 
+        border-radius: 10px 10px 10px 10px 
+    }
+    
+    form.logueo .primary {
+        color: #090909;
+        width: 50%;
+        margin-top: 2%;
+        padding: 0.7em 1.7em;
+        font-size: 18px;
+        border-radius: 0.5em;
+        background: #e8e8e8;
+        border: 1px solid #e8e8e8;
+        transition: all .3s;
+        box-shadow: 6px 6px 12px #c5c5c5,
+                    -6px -6px 12px #ffffff;
+    }
+    
+    form.logueo .primary:hover {
+        background-color: #0044AA;
+        color: white;
+    }
+
+}
+
+@media (min-width: 769px){
+    main section article .descripcion{
+        display: block;
+        width: 24%;
+    }
+
+    .productos article{
+        width: 22%;
+    }
+
+    .metodos-pago{
+        display: flex;
+    }
+
+    .descripciones p{
+        margin: 20px
+    }
+}
